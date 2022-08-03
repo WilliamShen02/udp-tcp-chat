@@ -81,3 +81,7 @@ Command (on a connected client): :Exit
 Output (on Server): <username> left the chatroom
 Output (on all other clients): <username> left the chatroom
 ```
+
+### Source Code
+
+This project is implemented using C/C++, and it can be compiled by both GCC and G++. The source code could be found here: (link)

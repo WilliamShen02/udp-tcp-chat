@@ -68,8 +68,16 @@ Output (on all other clients): <username>: [Feeling Happy]
 ```
 
 Here is the list of all message shortcuts:  
-1. Type :) to display [feeling happy]  
-2. Type :( to display [feeling sad]  
-3. Type :mytime to display the current time  
-4. Type :+1hr to display the current time + 1 hour  
-5. Type :Exit to close your connection and terminate the client
+1. Type `:)` to display `[feeling happy]`  
+2. Type `:(` to display `[feeling sad]`  
+3. Type `:mytime` to display the current time  
+4. Type `:+1hr` to display the current time + 1 hour  
+
+#### 5. Chatting Termination
+
+Clients will be able to disconnect by typing `:Exit`, like this:  
+```
+Command (on a connected client): :Exit
+Output (on Server): <username> left the chatroom
+Output (on all other clients): <username> left the chatroom
+```

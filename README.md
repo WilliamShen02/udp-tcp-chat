@@ -55,3 +55,21 @@ Output (on all other clients): <username>: Hello Room
 ```
 
 Please limit your message to 100 characters.
+
+#### 4. Chatting Shortcuts
+
+Clients will be able to send message shortcuts to the server that are translated into text and displayed as text at all screens.
+
+For example,  
+```
+Command (on a connected client): :)
+Output (on Server): <username>: [Feeling Happy]
+Output (on all other clients): <username>: [Feeling Happy]
+```
+
+Here is the list of all message shortcuts:  
+1. Type :) to display [feeling happy]  
+2. Type :( to display [feeling sad]  
+3. Type :mytime to display the current time  
+4. Type :+1hr to display the current time + 1 hour  
+5. Type :Exit to close your connection and terminate the client

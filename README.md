@@ -10,7 +10,7 @@ To begin, please download the executable files first. You will need a Linux envi
 There are two pairs of client-server applications. One is implemented using TCP sockets and the other using UDP sockets. Please use them accordingly since, for example, a UDP client cannot work with a running TCP server.
 
 Here are the TCP server: [TCP Server](https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatserver_tcp) and the TCP client [TCP Client](https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatclient_tcp) applications.  
-Here are the UDP server: [UDP Server](https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatserver_udp) and the UDP client [UDP Client] (https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatclient_udp) applications.
+Here are the UDP server: [UDP Server](https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatserver_udp) and the UDP client [UDP Client](https://github.com/WilliamShen02/udp-tcp-chat/raw/main/executable/chatclient_udp) applications.
 
 After downloading the executable files, please look at the instructions for use as follows.
 

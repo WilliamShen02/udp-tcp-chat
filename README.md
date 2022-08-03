@@ -17,8 +17,10 @@ After downloading the executable files, please look at the instructions for use 
 
 #### 1. Server setup and setting password
 
-First open a command line prompt in the directory where the server executable file is located.  
-Type in the following command and fill in the blanks marked with "\*". Make sure you type the correct file name (tcp or udp). Recommended port is 5001, and there is no passcode limitations. 
+First open a command line prompt in the directory where the server executable file is located.
+
+Type in the following command and fill in the blanks marked with "\*". Make sure you type the correct file name (tcp or udp). Recommended port is 5001, and there is no passcode limitations.
+
 `Command: ./chatserver_*** -start -port **** -passcode ****
 Output: Server started on port <port>. Accepting connections`
 
@@ -26,9 +28,11 @@ Output: Server started on port <port>. Accepting connections`
 
 Open another command line prompt in the directory where the client executable file is located.  
 Type in the following command and fill in the blanks marked with "\*".
+
 `Command: ./chatclient -join -host 127.0.0.1 -port **** -username **** -passcode ****
 Output (on Server): <username> joined the chatroom
 Output (on new Client): Connected to <hostname> on port <port>`
+
 If the password is incorrect, the prompt will output `Incorrect Passcode` and return. Please make sure it is correct.
 
 You may open other prompts as other clients since the server supports multiple clients connected to it, but the usernames inputted must be different. 

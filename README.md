@@ -21,17 +21,21 @@ First open a command line prompt in the directory where the server executable fi
 
 Type in the following command and fill in the blanks marked with "\*". Make sure you type the correct file name (tcp or udp). Recommended port is 5001, and there is no passcode limitations.
 
-`Command: ./chatserver_*** -start -port **** -passcode ****  
-Output: Server started on port <port>. Accepting connections`
+```
+Command: ./chatserver_*** -start -port **** -passcode ****  
+Output: Server started on port <port>. Accepting connections
+```
 
 #### 2. Client setup and password checking
 
 Open another command line prompt in the directory where the client executable file is located.  
 Type in the following command and fill in the blanks marked with "\*".
 
-`Command: ./chatclient -join -host 127.0.0.1 -port **** -username **** -passcode ****
+```
+Command: ./chatclient -join -host 127.0.0.1 -port **** -username **** -passcode ****
 Output (on Server): <username> joined the chatroom
-Output (on new Client): Connected to <hostname> on port <port>`
+Output (on new Client): Connected to <hostname> on port <port>
+```
 
 If the password is incorrect, the prompt will output `Incorrect Passcode` and return. Please make sure it is correct.
 
@@ -43,8 +47,10 @@ If you type `listclients` on the server prompt, it will output the usernames of 
 
 After successfully connected to the server, clients will be able to type messages that get sent to the server when the user enters a newline. All text before the newline will be sent to the server, displayed on the server's screen, and broadcasted and displayed on the screens of all clients.
 
-`Command (on a connected client with username: <username>): Hello Room  
+```
+Command (on a connected client with username: <username>): Hello Room  
 Output (on Server): <username>: Hello Room  
-Output (on all other clients): <username>: Hello Room`
+Output (on all other clients): <username>: Hello Room
+```
 
 Please limit your message to 100 characters.
